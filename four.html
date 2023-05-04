@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="pags.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="app.js	" defer></script>
+
+
+</head>
+
+<body>
+
+    <div style="background-image: url('./Imgs/Fondo/alquelarreBG.jpg') ;" class="wrapper">
+        <div class="retorno"> <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill=currentColor viewBox="0 0 256 256"><path d="M208,72H128V32a8,8,0,0,0-13.66-5.66l-96,96a8,8,0,0,0,0,11.32l96,96A8,8,0,0,0,128,224V184h80a16,16,0,0,0,16-16V88A16,16,0,0,0,208,72Zm0,96H120a8,8,0,0,0-8,8v28.69L35.31,128,112,51.31V80a8,8,0,0,0,8,8h88Z"></path></svg>
+            </a>
+        </div>
+        <div class="cols">
+            <div class="inner-box">
+                <h1 style="color: white ">El Alquelarre </h1>
+                <span class="topline"> <strong> Autor: </strong>  <br> Francisco de Goya y Lucientes</span>
+                <p><strong> Reseña: </strong> <br>
+                    Se cree que Goya realizó estas pinturas sobre brujas influenciado por su amigo el escritor
+                    Moratín, que rescató del olvido el escrito del Acto de Fe del Juicio contra las brujas de
+                    Zugarramurdi de 1610. Con ello, quería formular una crítica tanto a la Iglesia como a la
+                    ignorancia y la superstición. Si miramos el cuadro, vemos iluminado por la luna a un macho
+                    cabrío, que representa al diablo, que tiende sus patas hacia dos brujas que le ofrecen unos
+                    niños. Las brujas representan a dos de las mujeres juzgadas en el acto, María Presoná y
+                    María Joanto, a las que hicieron confesaron haber matado a sus hijos para contentar al
+                    demonio. A la izquierda cuelgan de un palo varios niños. Parecen demacrados y
+                    esqueléticos, lo mismo que los dos que están en el suelo. Lo que la inquisición consiguió
+                    que confesaran esos hombres y mujeres, a base de miedo y torturas,  es terrible. Goya lo
+                    plasmó con total maestría en su pintura, consiguiendo provocar en el espectador un
+                    desasosiego cercano a la pesadilla.
+                </p>
+                <br>
+                <p><strong> Ubicación: </strong> Museo Lázaro Galdiano </p>
+                <p><strong>Cronología: </strong> 1797 - 1798             <strong>Técnica: </strong> Óleo </p> <br>
+            </div>
+        </div>
+        <div class="cols cols1">
+            <div class="imgbox">
+                <img class="original slider-image" src="./Imgs/Alquelarre.jpg" alt="">
+                <img class="imitacion slider-image" src="./Imgs/fotos/AlquelarreC.jpg" alt="">
+            </div>
+            <input type="range" min="0" max="100" value="0" class="slider" aria-label="Porcentaje">
+            <div class="slider-line"></div>
+            <div class="slider-button" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill=currentColor viewBox="0 0 256 256"><path d="M136,40V216a8,8,0,0,1-16,0V40a8,8,0,0,1,16,0ZM96,120H35.31l18.35-18.34A8,8,0,0,0,42.34,90.34l-32,32a8,8,0,0,0,0,11.32l32,32a8,8,0,0,0,11.32-11.32L35.31,136H96a8,8,0,0,0,0-16Zm149.66,2.34-32-32a8,8,0,0,0-11.32,11.32L220.69,120H160a8,8,0,0,0,0,16h60.69l-18.35,18.34a8,8,0,0,0,11.32,11.32l32-32A8,8,0,0,0,245.66,122.34Z"></path></svg>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
